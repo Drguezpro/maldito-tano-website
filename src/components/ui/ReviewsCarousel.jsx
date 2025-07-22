@@ -5,7 +5,7 @@ import { Autoplay, EffectFade } from 'swiper/modules'
 import 'swiper/css'
 import 'swiper/css/effect-fade'
 
-import reviews from '../data/reviews'
+import reviews from '../../data/reviews'
 
 // Suponiendo que tus imágenes están en public/assets/salon1.jpg, etc.
 const salonImages = [

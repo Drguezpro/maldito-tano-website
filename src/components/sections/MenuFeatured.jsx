@@ -1,9 +1,10 @@
-import pastas from '../data/menupastas';
+// src/components/MenuFeatured.jsx
+import menuFeatured from '../../data/menuFeatured';
 
-export default function MenuPastas() {
+export default function MenuFeatured() {
   return (
     <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
-      {pastas.map((item, idx) => (
+      {menuFeatured.map((item, idx) => (
         <div
           key={idx}
           className="border rounded-lg p-4 shadow hover:shadow-lg transition"

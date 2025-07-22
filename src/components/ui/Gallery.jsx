@@ -1,6 +1,6 @@
 // src/components/Gallery.jsx
 import React, { useState } from 'react';
-import galleryImages from '../data/gallery';
+import galleryImages from '../../data/gallery';
 
 export default function Gallery() {
   const [open, setOpen] = useState(false);

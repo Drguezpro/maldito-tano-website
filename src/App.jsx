@@ -1,16 +1,23 @@
 // src/App.jsx
-import React, { useState } from 'react'
-import Navbar from './components/Navbar'
-import HeroCarousel from './components/HeroCarousel'
-import PizzaBanner from './components/PizzaBanner'
-import MenuFeatured from './components/MenuFeatured'
-import PastaBanner from './components/PastaBanner'
-import MenuPastas from './components/MenuPastas'
-import Gallery from './components/Gallery'
-import ReviewsCarousel from './components/ReviewsCarousel'
-import Footer from './components/Footer'
-import ReservationButton from './components/ReservationButton'
-import ReservationModal from './components/ReservationModal'
+import React, { useState } from 'react';
+
+// Layout
+import Navbar from './components/layout/Navbar';
+import Footer from './components/layout/Footer';
+
+// UI
+import HeroCarousel from './components/ui/HeroCarousel';
+import Gallery from './components/ui/Gallery';
+import ReviewsCarousel from './components/ui/ReviewsCarousel';
+import ReservationButton from './components/ui/ReservationButton';
+import ReservationModal from './components/ui/ReservationModal';
+
+// Sections
+import PizzaBanner from './components/sections/PizzaBanner';
+import MenuFeatured from './components/sections/MenuFeatured';
+import PastaBanner from './components/sections/PastaBanner';
+import MenuPastas from './components/sections/MenuPastas';
+
 
 function App() {
   // Estado para controlar el modal
