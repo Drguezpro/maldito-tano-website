@@ -1,0 +1,11 @@
+# Normalizar fin de línea en todos los sistemas operativos
+* text=auto
+
+# Fuerza LF como fin de línea para los archivos de código
+*.js  text eol=lf
+*.jsx text eol=lf
+*.ts  text eol=lf
+*.tsx text eol=lf
+*.css text eol=lf
+*.html text eol=lf
+*.json text eol=lf
