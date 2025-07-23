@@ -1,5 +1,5 @@
 // src/App.jsx
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 
 // Layout
 import Navbar from './components/layout/Navbar';
@@ -9,60 +9,83 @@ import Footer from './components/layout/Footer';
 import HeroCarousel from './components/ui/HeroCarousel';
 import Gallery from './components/ui/Gallery';
 import ReviewsCarousel from './components/ui/ReviewsCarousel';
-import ReservationButton from './components/ui/ReservationButton';
 import ReservationModal from './components/ui/ReservationModal';
 
 // Sections
-import PizzaBanner from './components/sections/PizzaBanner';
-import MenuFeatured from './components/sections/MenuFeatured';
-import PastaBanner from './components/sections/PastaBanner';
-import MenuPastas from './components/sections/MenuPastas';
-
+import RandomBanner from './components/sections/RandomBanner';
 
 function App() {
-  // Estado para controlar el modal
-  const [modalOpen, setModalOpen] = useState(false)
+  const [modalOpen, setModalOpen] = useState(false);
+
+  // Mensajes con traducción
+  const messages = [
+    { it: 'Benvenuti a', es: '' },
+    { it: 'Scopri i nostri sapori', es: 'Descubre nuestros sabores' },
+    { it: 'Vieni a gustare la passione', es: 'Vení a saborear la pasión' },
+    { it: 'Prenota la tua esperienza', es: 'Reservá tu experiencia' },
+    { it: 'Lasciati tentare dal menu', es: 'Dejate tentar por la carta' }
+  ];
+
+  const [idx, setIdx] = useState(0);
+  useEffect(() => {
+    const timer = setInterval(() => {
+      setIdx(i => (i + 1) % messages.length);
+    }, 6000);
+    return () => clearInterval(timer);
+  }, [messages.length]);
+
+  const { it, es } = messages[idx];
 
   return (
     <>
-      {/* Navbar recibe la función para abrir el modal */}
       <Navbar onReserve={() => setModalOpen(true)} />
 
-      {/* Hero / Inicio */}
       <section id="inicio">
         <HeroCarousel />
       </section>
 
-      <main className="p-8 mt-16">
-       <h1 className="text-6xl font-bold font-lato text-center flex justify-center items-center gap-4 -mt-16 mb-2">
-        <span className="italic">Benvenuti a</span>
-        <img
-          src="/assets/LogoMTBco.png"
-          alt="Logo Maldito Tano"
-          className="h-10 md:h-44 object-contain"
-        />
-        <span className="italic">Ristorante Italiano</span>
-      </h1>
+      <main className="p-4 md:p-8 mt-16">
+        <h1 className="text-3xl md:text-6xl font-bold font-lato text-center flex flex-col items-center gap-2 md:gap-4 -mt-16 mb-2 px-4 md:px-0">
+  {idx === 0 ? (
+    <div className="flex flex-col md:flex-row items-center gap-2 md:gap-4">
+      <span className="italic text-2xl md:text-5xl break-words md:break-normal w-full md:w-auto">
+        {it}
+      </span>
+      <img
+        src="/assets/LogoMTBco.webp"
+        alt="Logo Maldito Tano"
+        className="h-14 md:h-32 object-contain"
+      />
+      <span className="italic text-2xl md:text-5xl break-words md:break-normal w-full md:w-auto">
+        Ristorante Italiano
+      </span>
+    </div>
+  ) : (
+    <div className="flex flex-col md:flex-row items-center gap-2 md:gap-4">
+      <span className="italic text-xl md:text-5xl break-words md:break-normal w-full md:w-auto whitespace-normal">
+        {it}
+        {es && (
+          <>
+            {' '}...{' '}
+            <span className="not-italic text-xl md:text-5xl whitespace-normal">
+              {es}
+            </span>
+          </>
+        )}
+      </span>
+      <img
+        src="/assets/LogoMTBco.webp"
+        alt="Logo Maldito Tano"
+        className="h-14 md:h-32 object-contain"
+      />
+    </div>
+  )}
+</h1>
 
 
-        {/* Sección  Pizze */}
-        <section id="carta" className="mt-16 scroll-mt-24">
-          
-          <div className="max-w-5xl mx-auto p-8">
-            <h2 className="text-5xl font-bold font-lato text-center mb-6"><span className="italic">Nuestras Pizzas</span></h2>
-            {/*<MenuFeatured />*/}
-          </div>
-          <PizzaBanner />
-        </section>
-
-        {/* Sección Pastas */}
-        <section id="pastas" className="mt-16 scroll-mt-24">
-          
-          <div className="max-w-5xl mx-auto p-8">
-            <h2 className="text-5xl font-bold font-lato text-center mb-6"><span className="italic">Nuestras Pastas</span></h2>
-            {/*<MenuPastas />*/}
-          </div>
-          <PastaBanner />
+        {/* Carta */}
+        <section id="carta" className="mt-4 scroll-mt-24">
+          <RandomBanner />
         </section>
 
         {/* Galería */}
@@ -75,22 +98,18 @@ function App() {
           <ReviewsCarousel />
         </section>
 
-        {/* Contacto / Footer */}
+        {/* Footer */}
         <section id="contacto" className="mt-16 scroll-mt-24">
           <Footer />
         </section>
-
-        {/* Botón flotante de Reserva 
-        <ReservationButton onClick={() => setModalOpen(true)} />*/}
       </main>
 
-      {/* El modal de reserva, controlado por modalOpen */}
       <ReservationModal
         isOpen={modalOpen}
         onClose={() => setModalOpen(false)}
       />
     </>
-  )
+  );
 }
 
-export default App
+export default App;

@@ -1,0 +1,150 @@
+{
+  "Pizzas": [
+    {
+      "name": "BARI",
+      "price": "38.900",
+      "descriptionIt": "Mozzarella, pomodorini, basilico fresco e rucola.",
+      "description": "Mozzarella, tomates cherry, albahaca fresca y rúcula."
+    },
+    {
+      "name": "CALZONE",
+      "price": "23.000",
+      "descriptionIt": "Impasto ripieno di mozzarella, cipolla, funghi, prosciutto cotto e spezie italiane.",
+      "description": "Masa rellena de mozzarella, cebolla, champiñones, jamón cocido y condimentos italianos."
+    },
+    {
+      "name": "CAMPANIA",
+      "price": "19.800",
+      "descriptionIt": "Base di pomodoro, mozzarella, pomodorini e pesto di basilico.",
+      "description": "Base de tomate, mozzarella, tomates cherry y pesto de albahaca."
+    },
+    {
+      "name": "CAPRICCIOSA",
+      "price": "31.000",
+      "descriptionIt": "Salsa di pomodoro, mozzarella, prosciutto cotto, funghi, olive nere e carciofi.",
+      "description": "Salsa de tomate, mozzarella, jamón cocido, champiñones, aceitunas negras y corazones de alcachofa."
+    },
+    {
+      "name": "CIPOLLA",
+      "price": "17.000",
+      "descriptionIt": "Base bianca con mozzarella, doppio strato di cipolla caramellata e spezie.",
+      "description": "Base blanca con mozzarella, doble capa de cebolla caramelizada y especias."
+    },
+    {
+      "name": "MALDITO TANO",
+      "price": "28.700",
+      "descriptionIt": "Mozzarella affumicata, salsa di pomodoro, cipolla grigliata, pancetta affumicata e peperoni arrostiti.",
+      "description": "Mozzarella ahumada, salsa de tomate, cebolla grillada, panceta ahumada y pimientos asados."
+    },
+    {
+      "name": "MARADONA",
+      "price": "22.600",
+      "descriptionIt": "Mozzarella, funghi trifolati, rucola fresca, pomodorini, parmigiano e prosciutto crudo.",
+      "description": "Mozzarella, champiñones salteados, rúcula fresca, tomates cherry, parmigiano-reggiano y jamón crudo."
+    },
+    {
+      "name": "MARGHERITA",
+      "price": "14.000",
+      "descriptionIt": "Salsa di pomodoro, mozzarella, foglie di basilico fresco e olio d'oliva extravergine.",
+      "description": "Salsa de tomate, mozzarella, hojas de albahaca fresca y aceite de oliva virgen extra."
+    },
+    {
+      "name": "MESSI",
+      "price": "28.600",
+      "descriptionIt": "Mix di sei formaggi fusi (mozzarella, gorgonzola, parmigiano, emmental, provolone e pecorino) con noci tritate.",
+      "description": "Mezcla de seis quesos fundidos (mozzarella, gorgonzola, parmesano, emmental, provolone y pecorino) con nueces picadas."
+    },
+    {
+      "name": "MILANO",
+      "price": "20.000",
+      "descriptionIt": "Salsa di pomodoro, mozzarella e salame milanese.",
+      "description": "Salsa de tomate, mozzarella y salame milanés."
+    },
+    {
+      "name": "NAPOLI",
+      "price": "19.200",
+      "descriptionIt": "Salsa di pomodoro, acciughe, capperi e origano.",
+      "description": "Salsa de tomate, anchoas, alcaparras y un toque de orégano."
+    },
+    {
+      "name": "POMPEI",
+      "price": "30.000",
+      "descriptionIt": "Base di crema di spinaci, mozzarella, gamberetti flambé e scampi.",
+      "description": "Base de crema de espinacas, mozzarella, langostinos flambeados y camarones."
+    },
+    {
+      "name": "POSITANO",
+      "price": "22.000",
+      "descriptionIt": "Base di pomodoro, letto di rucola, pomodorini, prosciutto crudo e bocconcini di mozzarella fresca.",
+      "description": "Base de tomate, cama de rúcula, tomates cherry, jamón crudo y bolitas de mozzarella fresca."
+    },
+    {
+      "name": "PUGLIA",
+      "price": "31.000",
+      "descriptionIt": "Salsa di pomodoro, mozzarella, rucola, peperoni arrostiti, prosciutto crudo e burrata cremosa.",
+      "description": "Salsa de tomate, mozzarella, rúcula, pimientos asados, jamón crudo y burrata cremosa."
+    },
+    {
+      "name": "ROMA",
+      "price": "34.000",
+      "descriptionIt": "Salsa bianca, mozzarella, porchetta italiana e patate al forno.",
+      "description": "Salsa blanca, mozzarella, porchetta italiana y rodajas de papa al horno."
+    }
+  ],
+  "Pastas": [
+    {
+      "name": "GNOCCHI",
+      "price": "7.000",
+      "descriptionIt": "Gnocchi di patate.",
+      "description": "Ñoquis de papa."
+    },
+    {
+      "name": "LASAGNA",
+      "price": "19.900",
+      "descriptionIt": "Lasagna alla bolognese con besciamella, mozzarella e parmigiano.",
+      "description": "Lasaña con salsa boloñesa, bechamel, mozzarella y queso parmesano."
+    },
+    {
+      "name": "PARMIGIANA",
+      "price": "20.000",
+      "descriptionIt": "Lasagna alla parmigiana con pomodoro, prosciutto cotto, mozzarella e melanzane fritte.",
+      "description": "Lasaña al estilo parmigiana con salsa de tomate, jamón cocido, mozzarella y berenjenas empanadas y fritas."
+    },
+    {
+      "name": "RAVIOLI",
+      "price": "8.000",
+      "descriptionIt": "Ravioli ripieni di ricotta e spinaci.",
+      "description": "Ravioles rellenos de ricota y espinacas."
+    },
+    {
+      "name": "STROZZAPRETI",
+      "price": "6.500",
+      "descriptionIt": "Strozzapreti (pasta corta) serviti con salsa a scelta.",
+      "description": "Strozzapreti (pasta corta)."
+    },
+    {
+      "name": "TAGLIATELLE",
+      "price": "8.500",
+      "descriptionIt": "Tagliatelle (pasta lunga) serviti con salsa a scelta.",
+      "description": "Tagliatelle (pasta larga)."
+    },
+    {
+      "name": "AGNOLOTTI SALMONE",
+      "price": "20.000",
+      "descriptionIt": "Agnolotti ripieni di salmone, forma di barchetta.",
+      "description": "Agnolotti rellenos de salmón con forma de barquito."
+    },
+    {
+      "name": "PASTA CELIACA",
+      "price": "7.500",
+      "descriptionIt": "Pasta senza glutine.",
+      "description": "Pasta sin gluten."
+    },
+    {
+      "name": "LASAGNA AL SALMONE",
+      "price": "25.000",
+      "descriptionIt": "Lasagna ripiena di salmone.",
+      "description": "Lasaña rellena de salmón."
+    }
+  ]
+}

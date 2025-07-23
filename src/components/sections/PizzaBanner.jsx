@@ -5,26 +5,26 @@ import 'swiper/css'
 import './PizzaBanner.css'
 
 const pizzaImages = [
-  '/assets/Pizza1.png',
-  '/assets/Pizza2.jpg',
-  '/assets/Pizza3.png',
-  '/assets/Pizza4.jpg',
-  '/assets/Pizza5.jpg',
-  '/assets/Pizza6.png',
-  '/assets/Pizza7.jpg',
-  '/assets/Pizza8.png',
-  '/assets/Pizza9.jpg',
-  '/assets/Pizza10.png',
-  '/assets/Pizza11.jpg',
-  '/assets/Pizza12.jpg',
-  '/assets/Pizza13.png',
-  '/assets/Pizza14.png',
-  '/assets/Pizza15.png',
-  '/assets/Pizza16.jpg',
-  '/assets/Pizza17.jpg',
-  '/assets/Pizza18.png',
-  '/assets/Pizza19.png',
-  '/assets/Pizza20.jpg'
+  '/assets/Pizza1.webp',
+  '/assets/Pizza2.webp',
+  '/assets/Pizza3.webp',
+  '/assets/Pizza4.webp',
+  '/assets/Pizza5.webp',
+  '/assets/Pizza6.webp',
+  '/assets/Pizza7.webp',
+  '/assets/Pizza8.webp',
+  '/assets/Pizza9.webp',
+  '/assets/Pizza10.webp',
+  '/assets/Pizza11.webp',
+  '/assets/Pizza12.webp',
+  '/assets/Pizza13.webp',
+  '/assets/Pizza14.webp',
+  '/assets/Pizza15.webp',
+  '/assets/Pizza16.webp',
+  '/assets/Pizza17.webp',
+  '/assets/Pizza18.webp',
+  '/assets/Pizza19.webp',
+  '/assets/Pizza20.webp'
 ]
 
 export default function PizzaBanner() {

@@ -9,11 +9,11 @@ import reviews from '../../data/reviews'
 
 // Suponiendo que tus imágenes están en public/assets/salon1.jpg, etc.
 const salonImages = [
-  '/assets/salon1.jpg',
-  '/assets/salon2.jpg',
-  '/assets/salon3.jpg',
-  '/assets/salon4.jpg',
-  '/assets/salon5.jpg',
+  '/assets/salon1.webp',
+  '/assets/salon2.webp',
+  '/assets/salon3.webp',
+  '/assets/salon4.webp',
+  '/assets/salon5.webp',
 ]
 
 function renderStars(rating) {

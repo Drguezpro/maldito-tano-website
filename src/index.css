@@ -5,3 +5,6 @@
 html {
   scroll-behavior: smooth;
 }
+.swiper-wrapper {
+  transition-timing-function: linear !important;
+}

@@ -6,15 +6,15 @@ import 'swiper/css/effect-fade'
 import 'swiper/css/navigation'
 
 const images = [
-  //'/assets/MalditoTanoPortada3.png',
+  //'/assets/MalditoTanoPortada3.webp',
   
-  '/assets/MalditoTanoPortada10.jpg',
-  '/assets/MalditoTanoPortada5.jpg',
-  '/assets/MTSIsidroPortada.png',
-  '/assets/MTSI17.png',
-  '/assets/PortadaComidas.png',
-  '/assets/PortadaMT.png',
-  //'/assets/ElijoComerPortada.png',
+  '/assets/MalditoTanoPortada10.webp',
+  '/assets/MalditoTanoPortada5.webp',
+  '/assets/MTSIsidroPortada.webp',
+  '/assets/MTSI17.webp',
+  '/assets/PortadaComidas.webp',
+  '/assets/PortadaMT.webp',
+  
   ]
 export default function HeroCarousel() {
   return (

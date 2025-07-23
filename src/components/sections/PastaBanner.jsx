@@ -5,16 +5,16 @@ import 'swiper/css/navigation'
 import './PizzaBanner.css'
 
 const pastaImages = [
-  '/assets/Pasta1.png',
-  '/assets/Pasta2.jpg',
-  '/assets/Pasta3.png',
-  '/assets/Pasta4.jpg',
-  '/assets/Pasta5.png',
-  '/assets/Pasta6.png',
-  '/assets/Pasta7.png',
-  '/assets/Pasta8.png',
-  '/assets/Pasta9.png',
-  '/assets/Pasta10.png'
+  '/assets/Pasta1.webp',
+  '/assets/Pasta2.webp',
+  '/assets/Pasta3.webp',
+  '/assets/Pasta4.webp',
+  '/assets/Pasta5.webp',
+  '/assets/Pasta6.webp',
+  '/assets/Pasta7.webp',
+  '/assets/Pasta8.webp',
+  '/assets/Pasta9.webp',
+  '/assets/Pasta10.webp'
 ]
 
 export default function PastaBanner() {

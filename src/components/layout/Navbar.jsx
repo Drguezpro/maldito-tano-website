@@ -8,7 +8,7 @@ export default function Navbar({ onReserve }) {
         {/* Logo y título */}
         <div className="flex items-center">
           <img
-            src="/assets/LogoMTBco.png"
+            src="/assets/LogoMTBco.webp"
             alt="Logo Maldito Tano"
             className="h-10 md:h-14 object-contain"
           />
